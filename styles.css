@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.backGroundImage {
+  background-image: url("https://thumbs.dreamstime.com/b/oatmeal-porridge-berries-wooden-bowl-55565094.jpg");
+  background-repeat: no-repeat;
+  background-color: red;
+  background-size: 100% 100%;
+  line-height: 2px;
+  width: 100%;
+  min-height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+
+.choices {
+  width: 20px;
+  height: 30px;
+  background-color: greenyellow;
+  margin-right: 0.5rem;
+  margin-left: auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: "Great Vibes", cursive;
+  font-size: bold;
+  cursor: pointer;
+}
+.heading {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+}
+.Item {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 60%;
+  margin-bottom: 1rem;
+  position: relative; /** postion: absolute is overlapping **/
+  background-color: greenyellow;
+}
+.itemImage {
+  display: inline-block;
+  height: 300px;
+  width: 50%;
+  float: left;
+  margin-left: 0rem;
+  position: relative;
+}
+.itemDetail {
+  display: inline-block;
+  width: 40%;
+  padding-top: 0.5rem;
+  float: right;
+  margin-left: 1rem;
+  background-color: greenyellow;
+  height: 250px;
+  position: relative;
+  font-family: "Great Vibes", cursive;
+}
+
+.itemName {
+  font-size: 2rem;
+}
+.rating {
+  font-size: 1rem;
+}
